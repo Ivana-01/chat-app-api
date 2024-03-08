@@ -15,7 +15,7 @@ app.use(cors(
         credentials: true, 
         origin: ['http://localhost:3000', 'https://ivana-01-chat-app.onrender.com'],
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
-        allowedHeaders: ['Content-Type', Authorization, token]
+        allowedHeaders: ['Content-Type', 'Authorization', 'token']
     }
 ))
 app.use(cookieParser())
